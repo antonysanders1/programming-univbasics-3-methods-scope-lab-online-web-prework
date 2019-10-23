@@ -15,7 +15,7 @@ def link
 end
 
 def any_phrase(phrase)
-  phrase = "Do A Barrel Roll!"
+  put "#{phrase}"
 end
 
- 
+any_phrase("Do A Barrel Roll!")
